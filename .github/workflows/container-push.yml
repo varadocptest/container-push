@@ -43,7 +43,7 @@ on:
         type: string
       platforms:
         description: 'The platforms to build the container for.'
-        default: 'linux/amd64'
+        default: 'linux/amd64,linux/ppc64le'
         required: false
         type: string
 
